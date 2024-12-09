@@ -18,8 +18,11 @@ body {
     align-items: center;
     flex: 1 0 0;
     align-self: stretch;
-    width: 440px;
+    min-width: 320px;
+    max-width: 440px;
     margin: auto;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .input-and-result{
     display: flex;
@@ -64,7 +67,6 @@ body {
   }
   input[placeholder] {
     color: #647488;
-    font-family: "SF Mono";
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
