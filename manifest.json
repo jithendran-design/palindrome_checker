@@ -1,7 +1,7 @@
 {
     "name": "Palindrome Checker",
     "short_name": "Palin'd",
-    "start_url": "/",
+    "start_url": "/palindrome-checker/",
     "display": "standalone",
     "background_color": "linear-gradient(180deg, #062733 0%, #031820 100%)",
     "theme_color": "#031820",
