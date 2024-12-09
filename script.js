@@ -2,6 +2,10 @@ const userInputElement = document.getElementById("text-input");
 const button = document.getElementById("check-btn");
 const resultValueElement = document.getElementById("result");
 
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
+
 button.addEventListener("click", () => {
     const userInput = userInputElement.value;
     palindromeChecker(userInput); 

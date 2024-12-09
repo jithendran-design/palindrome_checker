@@ -1,0 +1,20 @@
+{
+    "name": "Palindrome Checker",
+    "short_name": "Palin'd",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "linear-gradient(180deg, #062733 0%, #031820 100%)",
+    "theme_color": "#031820",
+    "icons": [
+      {
+        "src": "icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
